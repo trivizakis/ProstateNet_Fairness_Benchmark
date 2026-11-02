@@ -1,0 +1,15 @@
+Experiment: lesion_uc2_magnetic.field.strength
+Training Set: BGMMOCE
+Total Selected Features: 11
+============================================================
+  1. original_1_original_shape_MinorAxisLength
+  2. original_1_original_glrlm_LowGrayLevelRunEmphasis
+  3. exp_1_original_shape_MeshVolume
+  4. exp_1_original_gldm_LargeDependenceHighGrayLevelEmphasis
+  5. exp_1_original_glszm_ZonePercentage
+  6. grad_1_original_gldm_GrayLevelNonUniformity
+  7. log_1_original_glszm_SizeZoneNonUniformity
+  8. sq_1_original_gldm_DependenceNonUniformityNormalized
+  9. sq_1_original_gldm_SmallDependenceLowGrayLevelEmphasis
+ 10. sqrt_1_original_glcm_Imc1
+ 11. sqrt_1_original_gldm_LowGrayLevelEmphasis

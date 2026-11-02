@@ -1,0 +1,5 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+lesion_uc2_manufacturer,adaboost,adaboost,BGMMOCE,BGMMOCE,0.6259,0.6259,0.2394,0.0359,0.0856,0.5833,0.4737,0.75,0.3462,-0.0635,0.7778,-0.0303,-0.0735,0.2723
+lesion_uc2_manufacturer,adaboost,adaboost,biased,biased,0.6809,0.6809,0.2356,0.051,0.1401,0.5625,0.4324,0.7273,0.3077,-0.1005,0.6481,-0.097,-0.1068,0.3304
+lesion_uc2_manufacturer,adaboost,fair_dir_ada,disparate_impact_remover,biased,0.6976,0.6976,0.2318,0.0662,0.075,0.625,0.5263,0.8333,0.3846,0.0212,1.0889,0.0364,0.0098,0.3839
+lesion_uc2_manufacturer,adaboost,fair_reweighted_ada,reweighing,biased,0.6591,0.6591,0.2385,0.0394,0.1093,0.5417,0.3529,0.75,0.2308,-0.127,0.4667,-0.0727,-0.1364,0.4888

@@ -1,0 +1,5 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+prostate_uc2_manufacturer,ridge,ridge,BGMMOCE,BGMMOCE,0.6254,0.6254,0.2514,-0.0063,0.0911,0.5034,0.1162,0.6552,0.0638,0.0355,2.0777,0.0516,0.0382,0.1112
+prostate_uc2_manufacturer,ridge,ridge,biased,biased,0.6543,0.6543,0.2586,-0.0349,0.1348,0.5275,0.1935,0.7674,0.1107,0.0032,1.0438,0.0234,0.01,0.1098
+prostate_uc2_manufacturer,ridge,fair_dir_ridge,disparate_impact_remover,biased,0.5362,0.5362,0.4742,-0.898,0.4742,0.5258,0.1834,0.775,0.104,-0.0007,0.9894,0.0216,0.0057,0.0445
+prostate_uc2_manufacturer,ridge,fair_reweighted_ridge,reweighing,biased,0.6558,0.6558,0.2419,0.0318,0.0216,0.5292,0.1941,0.7857,0.1107,0.034,1.6081,0.0644,0.0412,0.1179

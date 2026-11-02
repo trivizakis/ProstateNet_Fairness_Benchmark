@@ -1,0 +1,9 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+prostate_uc1_magnetic.field.strength,random_forest,random_forest,BGMMOCE,BGMMOCE,0.8257,0.8257,0.1849,0.1854,0.1345,0.7012,0.8103,0.6911,0.9793,-0.0476,0.9495,-0.0356,-0.028,0.0003
+prostate_uc1_magnetic.field.strength,random_forest,random_forest,biased,biased,0.8244,0.8244,0.1803,0.2055,0.1212,0.7132,0.8165,0.7002,0.9793,-0.0887,0.9064,-0.0356,-0.08,0.0053
+prostate_uc1_magnetic.field.strength,random_forest,fair_dir_rf,disparate_impact_remover,biased,0.8002,0.8002,0.1927,0.1509,0.1279,0.6892,0.8056,0.6799,0.9885,-0.0024,0.9975,-0.0208,0.0229,0.0077
+prostate_uc1_magnetic.field.strength,random_forest,fair_calib_eq_odds_rf,postprocessing,biased,0.743,0.743,0.2103,0.0738,0.1405,0.6922,0.8061,0.6838,0.9816,-0.13,0.8687,-0.0393,-0.1459,0.187
+prostate_uc1_magnetic.field.strength,random_forest,fair_eq_odds_rf,postprocessing,biased,0.8244,0.8244,0.1803,0.2055,0.1212,0.6967,0.8087,0.6865,0.9839,-0.0224,0.9762,-0.0036,-0.0075,0.0053
+prostate_uc1_magnetic.field.strength,random_forest,fair_roc_rf,postprocessing,biased,0.8244,0.8244,0.1803,0.2055,0.1212,0.7628,0.8137,0.8333,0.7949,-0.0359,0.9436,0.0042,0.0262,0.0053
+prostate_uc1_magnetic.field.strength,random_forest,fair_exp_grad_eo_rf,reductions,biased,0.6304,0.6304,0.2748,-0.2106,0.2823,0.6892,0.8045,0.6816,0.9816,-0.0178,0.9812,-0.0098,-0.0018,0.0368
+prostate_uc1_magnetic.field.strength,random_forest,fair_reweighted_rf,reweighing,biased,0.8237,0.8237,0.1822,0.1976,0.1228,0.7042,0.8129,0.6914,0.9862,-0.0024,0.9975,-0.0172,0.0287,0.0163

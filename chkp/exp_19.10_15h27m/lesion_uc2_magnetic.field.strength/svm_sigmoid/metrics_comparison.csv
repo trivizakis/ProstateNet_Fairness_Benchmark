@@ -1,0 +1,6 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+lesion_uc2_magnetic.field.strength,svm_sigmoid,svm_sigmoid,BGMMOCE,BGMMOCE,0.4703,0.4703,0.2858,-0.1514,0.201,0.5625,0.4615,0.6923,0.3462,-0.1958,0.4861,-0.2308,-0.169,0.0618
+lesion_uc2_magnetic.field.strength,svm_sigmoid,svm_sigmoid,biased,biased,0.5385,0.5385,0.2763,-0.1129,0.1884,0.5833,0.5455,0.6667,0.4615,-0.1799,0.6222,-0.1538,-0.1573,0.0604
+lesion_uc2_magnetic.field.strength,svm_sigmoid,fair_dir_svm_sigmoid,disparate_impact_remover,biased,0.528,0.528,0.2819,-0.1354,0.1929,0.5625,0.5116,0.6471,0.4231,-0.0476,0.875,-0.0769,-0.0206,0.1168
+lesion_uc2_magnetic.field.strength,svm_sigmoid,fair_roc_svm_sigmoid,postprocessing,biased,0.5385,0.5385,0.2763,-0.1129,0.1884,0.5625,0.3226,1.0,0.1923,-0.0688,0.5185,-0.0769,-0.0385,0.0604
+lesion_uc2_magnetic.field.strength,svm_sigmoid,fair_reweighted_svm_sigmoid,reweighing,biased,0.5524,0.5524,0.2753,-0.1091,0.1878,0.5833,0.5455,0.6667,0.4615,-0.1799,0.6222,-0.1538,-0.1573,0.0275

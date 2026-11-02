@@ -1,0 +1,15 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+prostate_uc2_magnetic.field.strength,logistic_regression,logistic_elastic,BGMMOCE,BGMMOCE,0.4747,0.4747,0.3686,-0.4753,0.3266,0.5163,0.6766,0.5148,0.9866,-0.0224,0.9774,-0.009,-0.0217,0.1553
+prostate_uc2_magnetic.field.strength,logistic_regression,logistic_l1,BGMMOCE,BGMMOCE,0.4796,0.4796,0.3814,-0.5265,0.3409,0.518,0.6736,0.516,0.9699,-0.042,0.9571,-0.0423,-0.0413,0.1513
+prostate_uc2_magnetic.field.strength,logistic_regression,logistic_l2,BGMMOCE,BGMMOCE,0.4725,0.4725,0.3734,-0.4946,0.3294,0.5146,0.6743,0.514,0.9799,-0.0284,0.9713,-0.0282,-0.0282,0.1525
+prostate_uc2_magnetic.field.strength,logistic_regression,logistic_elastic,biased,biased,0.5943,0.5943,0.2739,-0.0964,0.1868,0.5111,0.1231,0.7692,0.0669,-0.0153,0.697,-0.0141,-0.0113,0.1555
+prostate_uc2_magnetic.field.strength,logistic_regression,logistic_l1,biased,biased,0.6205,0.6205,0.2698,-0.0798,0.1838,0.5146,0.1552,0.7222,0.087,-0.029,0.6032,-0.0154,-0.0244,0.1461
+prostate_uc2_magnetic.field.strength,logistic_regression,logistic_l2,biased,biased,0.6091,0.6091,0.2718,-0.0878,0.1856,0.5146,0.145,0.75,0.0803,-0.0322,0.5228,-0.0346,-0.0278,0.1509
+prostate_uc2_magnetic.field.strength,logistic_regression,fair_dir_lr,disparate_impact_remover,biased,0.5721,0.5721,0.2829,-0.1324,0.1963,0.5129,0.1288,0.7778,0.0702,-0.0037,0.9225,0.0103,0.0008,0.1462
+prostate_uc2_magnetic.field.strength,logistic_regression,fair_prejudice_remover,inprocessing,biased,0.6395,0.6395,0.2657,-0.0635,0.182,0.5437,0.2528,0.7895,0.1505,-0.0086,0.9148,0.0494,0.0018,0.1573
+prostate_uc2_magnetic.field.strength,logistic_regression,fair_calib_eq_odds_lr,postprocessing,biased,0.5463,0.5463,0.2828,-0.1318,0.19,0.5077,0.1115,0.75,0.0602,-0.0674,0.0,-0.0923,-0.0648,0.0353
+prostate_uc2_magnetic.field.strength,logistic_regression,fair_eq_odds_lr,postprocessing,biased,0.6091,0.6091,0.2718,-0.0878,0.1856,0.5163,0.1455,0.7742,0.0803,-0.0294,0.5455,-0.0346,-0.0247,0.1509
+prostate_uc2_magnetic.field.strength,logistic_regression,fair_roc_lr,postprocessing,biased,0.6091,0.6091,0.2718,-0.0878,0.1856,0.5763,0.5659,0.5963,0.5385,0.0568,1.1288,0.2212,0.0732,0.1509
+prostate_uc2_magnetic.field.strength,logistic_regression,fair_exp_grad_eo_lr,reductions,biased,0.5243,0.5243,0.482,-0.9293,0.4809,0.5163,0.1706,0.7073,0.097,-0.0214,0.7281,-0.016,-0.0166,0.0021
+prostate_uc2_magnetic.field.strength,logistic_regression,fair_grid_search_eo,reductions,biased,0.6248,0.6248,0.2692,-0.0773,0.1833,0.5129,0.1696,0.6744,0.097,-0.027,0.6796,-0.016,-0.0228,0.1542
+prostate_uc2_magnetic.field.strength,logistic_regression,fair_reweighted_lr,reweighing,biased,0.6146,0.6146,0.2723,-0.0898,0.1872,0.5163,0.1402,0.7931,0.0769,-0.0021,0.9584,0.0147,0.0031,0.1538

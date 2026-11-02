@@ -1,0 +1,35 @@
+Experiment: lesion_uc2_manufacturer
+Training Set: biased
+Total Selected Features: 31
+============================================================
+  1. original_1_original_shape_MeshVolume
+  2. original_1_original_shape_MinorAxisLength
+  3. original_1_original_shape_VoxelVolume
+  4. original_1_original_glcm_Imc1
+  5. original_1_original_glrlm_ShortRunLowGrayLevelEmphasis
+  6. original_1_original_ngtdm_Coarseness
+  7. exp_1_original_shape_MeshVolume
+  8. exp_1_original_shape_MinorAxisLength
+  9. exp_1_original_firstorder_Energy
+ 10. exp_1_original_gldm_DependenceNonUniformity
+ 11. exp_1_original_gldm_SmallDependenceEmphasis
+ 12. exp_1_original_glrlm_RunPercentage
+ 13. exp_1_original_glszm_ZoneVariance
+ 14. grad_1_original_shape_MeshVolume
+ 15. grad_1_original_shape_MinorAxisLength
+ 16. grad_1_original_glszm_LargeAreaHighGrayLevelEmphasis
+ 17. log_1_original_shape_MeshVolume
+ 18. log_1_original_shape_MinorAxisLength
+ 19. log_1_original_glcm_Correlation
+ 20. log_1_original_ngtdm_Complexity
+ 21. sq_1_original_shape_MeshVolume
+ 22. sq_1_original_shape_MinorAxisLength
+ 23. sq_1_original_shape_VoxelVolume
+ 24. sq_1_original_glcm_Correlation
+ 25. sq_1_original_gldm_DependenceNonUniformityNormalized
+ 26. sq_1_original_gldm_SmallDependenceLowGrayLevelEmphasis
+ 27. sq_1_original_glszm_SizeZoneNonUniformity
+ 28. sqrt_1_original_shape_MeshVolume
+ 29. sqrt_1_original_shape_MinorAxisLength
+ 30. sqrt_1_original_shape_VoxelVolume
+ 31. sqrt_1_original_gldm_LargeDependenceHighGrayLevelEmphasis

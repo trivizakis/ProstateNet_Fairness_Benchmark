@@ -1,0 +1,9 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+lesion_uc2_magnetic.field.strength,random_forest,random_forest,BGMMOCE,BGMMOCE,0.7395,0.7395,0.2288,0.0783,0.1632,0.6875,0.5946,1.0,0.4231,-0.1852,0.4444,-0.2308,-0.1154,0.0261
+lesion_uc2_magnetic.field.strength,random_forest,random_forest,biased,biased,0.729,0.729,0.2255,0.0916,0.1279,0.6667,0.6364,0.7778,0.5385,-0.3492,0.3889,-0.3077,-0.3056,0.0137
+lesion_uc2_magnetic.field.strength,random_forest,fair_dir_rf,disparate_impact_remover,biased,0.6486,0.6486,0.2469,0.0056,0.1066,0.5625,0.5333,0.6316,0.4615,-0.0582,0.8642,-0.1538,-0.0234,0.0027
+lesion_uc2_magnetic.field.strength,random_forest,fair_calib_eq_odds_rf,postprocessing,biased,0.7325,0.7325,0.2242,0.0971,0.127,0.6667,0.6364,0.7778,0.5385,-0.3492,0.3889,-0.3077,-0.3056,0.0247
+lesion_uc2_magnetic.field.strength,random_forest,fair_eq_odds_rf,postprocessing,biased,0.729,0.729,0.2255,0.0916,0.1279,0.6667,0.6364,0.7778,0.5385,-0.3492,0.3889,-0.3077,-0.3056,0.0137
+lesion_uc2_magnetic.field.strength,random_forest,fair_roc_rf,postprocessing,biased,0.729,0.729,0.2255,0.0916,0.1279,0.625,0.6667,0.6429,0.6923,-0.0635,0.8974,0.0,-0.0357,0.0137
+lesion_uc2_magnetic.field.strength,random_forest,fair_exp_grad_eo_rf,reductions,biased,0.7054,0.7054,0.3251,-0.3095,0.3195,0.6458,0.5854,0.8,0.4615,-0.4603,0.1944,-0.4615,-0.4183,0.0364
+lesion_uc2_magnetic.field.strength,random_forest,fair_reweighted_rf,reweighing,biased,0.7168,0.7168,0.2296,0.0753,0.1342,0.6667,0.6,0.8571,0.4615,-0.2434,0.4321,-0.3077,-0.1806,0.0027

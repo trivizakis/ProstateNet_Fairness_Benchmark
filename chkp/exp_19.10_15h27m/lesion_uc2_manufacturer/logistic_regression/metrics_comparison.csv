@@ -1,0 +1,15 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+lesion_uc2_manufacturer,logistic_regression,logistic_elastic,BGMMOCE,BGMMOCE,0.6329,0.6329,0.265,-0.0672,0.206,0.5417,0.2667,1.0,0.1538,0.0635,2.3333,0.1091,0.0545,0.2321
+lesion_uc2_manufacturer,logistic_regression,logistic_l1,BGMMOCE,BGMMOCE,0.6154,0.6154,0.2648,-0.0666,0.1818,0.5,0.2941,0.625,0.1923,-0.0423,0.7778,0.0182,-0.0492,0.3406
+lesion_uc2_manufacturer,logistic_regression,logistic_l2,BGMMOCE,BGMMOCE,0.6224,0.6224,0.2639,-0.0629,0.1877,0.5625,0.3226,1.0,0.1923,0.0159,1.1667,0.0182,0.0091,0.3312
+lesion_uc2_manufacturer,logistic_regression,logistic_elastic,biased,biased,0.6836,0.6836,0.2584,-0.0409,0.2043,0.5417,0.2667,1.0,0.1538,-0.0212,0.7778,-0.0485,-0.0242,0.2039
+lesion_uc2_manufacturer,logistic_regression,logistic_l1,biased,biased,0.6923,0.6923,0.2513,-0.012,0.1842,0.5,0.25,0.6667,0.1538,-0.0317,0.7778,-0.0485,-0.0326,0.1857
+lesion_uc2_manufacturer,logistic_regression,logistic_l2,biased,biased,0.6906,0.6906,0.2548,-0.0262,0.1901,0.5208,0.303,0.7143,0.1923,0.0053,1.037,0.0182,0.0008,0.2127
+lesion_uc2_manufacturer,logistic_regression,fair_dir_lr,disparate_impact_remover,biased,0.7168,0.7168,0.2502,-0.008,0.192,0.6042,0.4571,0.8889,0.3077,0.164,2.7222,0.2182,0.1508,0.1938
+lesion_uc2_manufacturer,logistic_regression,fair_prejudice_remover,inprocessing,biased,0.6451,0.6451,0.252,-0.0149,0.2072,0.5625,0.4615,0.6923,0.3462,0.0582,1.2444,0.1273,0.047,0.2938
+lesion_uc2_manufacturer,logistic_regression,fair_calib_eq_odds_lr,postprocessing,biased,0.6906,0.6906,0.2548,-0.0262,0.1901,0.5208,0.303,0.7143,0.1923,0.0053,1.037,0.0182,0.0008,0.2127
+lesion_uc2_manufacturer,logistic_regression,fair_eq_odds_lr,postprocessing,biased,0.6906,0.6906,0.2548,-0.0262,0.1901,0.5208,0.303,0.7143,0.1923,0.0053,1.037,0.0182,0.0008,0.2127
+lesion_uc2_manufacturer,logistic_regression,fair_roc_lr,postprocessing,biased,0.6906,0.6906,0.2548,-0.0262,0.1901,0.5208,0.2069,1.0,0.1154,0.0265,1.5556,0.0424,0.0212,0.2127
+lesion_uc2_manufacturer,logistic_regression,fair_exp_grad_eo_lr,reductions,biased,0.6136,0.6136,0.4037,-0.6262,0.4052,0.5208,0.3784,0.6364,0.2692,-0.2698,0.2917,-0.3212,-0.2689,0.0268
+lesion_uc2_manufacturer,logistic_regression,fair_grid_search_eo,reductions,biased,0.6224,0.6224,0.2631,-0.0597,0.1597,0.5625,0.4878,0.6667,0.3846,0.0476,1.1667,0.0364,0.0432,0.2009
+lesion_uc2_manufacturer,logistic_regression,fair_reweighted_lr,reweighing,biased,0.6906,0.6906,0.2523,-0.0161,0.1862,0.5417,0.3125,0.8333,0.1923,0.0529,1.5556,0.0182,0.0508,0.1948

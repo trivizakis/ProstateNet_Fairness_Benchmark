@@ -1,0 +1,6 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+prostate_uc2_manufacturer,svm_poly,svm_poly,BGMMOCE,BGMMOCE,0.6027,0.6027,0.3078,-0.232,0.2412,0.488,0.0132,0.5,0.0067,-0.0063,0.3645,-0.0118,-0.0063,0.043
+prostate_uc2_manufacturer,svm_poly,svm_poly,biased,biased,0.3678,0.3678,0.2866,-0.1471,0.1927,0.4897,0.045,0.5385,0.0235,0.0192,2.4604,0.0133,0.0197,0.0767
+prostate_uc2_manufacturer,svm_poly,fair_dir_svm_poly,disparate_impact_remover,biased,0.5699,0.5699,0.2859,-0.1442,0.1924,0.4948,0.0696,0.6111,0.0369,-0.0041,0.8748,0.0033,-0.0031,0.0809
+prostate_uc2_manufacturer,svm_poly,fair_roc_svm_poly,postprocessing,biased,0.3678,0.3678,0.2866,-0.1471,0.1927,0.512,0.6773,0.512,1.0,0.0,1.0,0.0,0.0,0.0767
+prostate_uc2_manufacturer,svm_poly,fair_reweighted_svm_poly,reweighing,biased,0.3884,0.3884,0.2866,-0.1472,0.1928,0.488,0.051,0.5,0.0268,0.03,3.2806,0.021,0.0303,0.0758

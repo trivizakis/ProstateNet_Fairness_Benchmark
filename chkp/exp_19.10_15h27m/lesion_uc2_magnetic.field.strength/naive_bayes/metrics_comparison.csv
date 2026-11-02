@@ -1,0 +1,5 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+lesion_uc2_magnetic.field.strength,naive_bayes,naive_bayes,BGMMOCE,BGMMOCE,0.722,0.722,0.3027,-0.2191,0.2758,0.6667,0.6,0.8571,0.4615,-0.2434,0.4321,-0.3077,-0.1806,0.0522
+lesion_uc2_magnetic.field.strength,naive_bayes,naive_bayes,biased,biased,0.7168,0.7168,0.3741,-0.5068,0.3717,0.625,0.5,0.9,0.3462,-0.0529,0.7778,-0.0769,-0.0027,0.033
+lesion_uc2_magnetic.field.strength,naive_bayes,fair_dir_nb,disparate_impact_remover,biased,0.7255,0.7255,0.4017,-0.6182,0.4084,0.5833,0.4444,0.8,0.3077,0.0317,1.1667,0.0,0.0714,0.0467
+lesion_uc2_magnetic.field.strength,naive_bayes,fair_reweighted_nb,reweighing,biased,0.7168,0.7168,0.3735,-0.5043,0.3723,0.625,0.5,0.9,0.3462,-0.0529,0.7778,-0.0769,-0.0027,0.033

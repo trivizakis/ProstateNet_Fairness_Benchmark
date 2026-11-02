@@ -1,0 +1,215 @@
+Experiment: prostate_uc1_manufacturer
+Training Set: BGMMOCE
+Total Selected Features: 211
+============================================================
+  1. original_1_original_shape_Maximum2DDiameterRow
+  2. original_1_original_shape_Maximum2DDiameterSlice
+  3. original_1_original_shape_MinorAxisLength
+  4. original_1_original_shape_SurfaceArea
+  5. original_1_original_firstorder_Minimum
+  6. original_1_original_glcm_ClusterProminence
+  7. original_1_original_glcm_ClusterShade
+  8. original_1_original_glcm_Correlation
+  9. original_1_original_glcm_DifferenceAverage
+ 10. original_1_original_glcm_Id
+ 11. original_1_original_glcm_Imc1
+ 12. original_1_original_glcm_JointEnergy
+ 13. original_1_original_gldm_DependenceEntropy
+ 14. original_1_original_gldm_DependenceNonUniformity
+ 15. original_1_original_gldm_GrayLevelNonUniformity
+ 16. original_1_original_gldm_GrayLevelVariance
+ 17. original_1_original_gldm_LargeDependenceHighGrayLevelEmphasis
+ 18. original_1_original_gldm_SmallDependenceHighGrayLevelEmphasis
+ 19. original_1_original_glrlm_GrayLevelVariance
+ 20. original_1_original_glrlm_LongRunEmphasis
+ 21. original_1_original_glrlm_RunVariance
+ 22. original_1_original_glrlm_ShortRunHighGrayLevelEmphasis
+ 23. original_1_original_glrlm_ShortRunLowGrayLevelEmphasis
+ 24. original_1_original_glszm_GrayLevelNonUniformity
+ 25. original_1_original_glszm_SizeZoneNonUniformity
+ 26. original_1_original_glszm_SizeZoneNonUniformityNormalized
+ 27. original_1_original_ngtdm_Busyness
+ 28. original_1_original_ngtdm_Contrast
+ 29. original_1_original_ngtdm_Strength
+ 30. exp_1_original_shape_LeastAxisLength
+ 31. exp_1_original_shape_Maximum2DDiameterColumn
+ 32. exp_1_original_shape_Maximum2DDiameterRow
+ 33. exp_1_original_shape_MinorAxisLength
+ 34. exp_1_original_shape_SurfaceArea
+ 35. exp_1_original_firstorder_10Percentile
+ 36. exp_1_original_firstorder_90Percentile
+ 37. exp_1_original_firstorder_InterquartileRange
+ 38. exp_1_original_firstorder_Minimum
+ 39. exp_1_original_firstorder_RootMeanSquared
+ 40. exp_1_original_firstorder_TotalEnergy
+ 41. exp_1_original_firstorder_Uniformity
+ 42. exp_1_original_glcm_ClusterProminence
+ 43. exp_1_original_glcm_Contrast
+ 44. exp_1_original_glcm_Correlation
+ 45. exp_1_original_glcm_DifferenceAverage
+ 46. exp_1_original_glcm_DifferenceVariance
+ 47. exp_1_original_glcm_Imc2
+ 48. exp_1_original_glcm_JointAverage
+ 49. exp_1_original_glcm_JointEnergy
+ 50. exp_1_original_glcm_MCC
+ 51. exp_1_original_glcm_SumEntropy
+ 52. exp_1_original_gldm_DependenceVariance
+ 53. exp_1_original_gldm_LargeDependenceEmphasis
+ 54. exp_1_original_gldm_LargeDependenceHighGrayLevelEmphasis
+ 55. exp_1_original_glrlm_GrayLevelNonUniformityNormalized
+ 56. exp_1_original_glrlm_GrayLevelVariance
+ 57. exp_1_original_glrlm_HighGrayLevelRunEmphasis
+ 58. exp_1_original_glrlm_LongRunEmphasis
+ 59. exp_1_original_glrlm_LongRunLowGrayLevelEmphasis
+ 60. exp_1_original_glrlm_RunEntropy
+ 61. exp_1_original_glrlm_ShortRunHighGrayLevelEmphasis
+ 62. exp_1_original_glszm_GrayLevelVariance
+ 63. exp_1_original_glszm_HighGrayLevelZoneEmphasis
+ 64. exp_1_original_glszm_SizeZoneNonUniformityNormalized
+ 65. exp_1_original_glszm_SmallAreaEmphasis
+ 66. exp_1_original_glszm_ZonePercentage
+ 67. exp_1_original_glszm_ZoneVariance
+ 68. exp_1_original_ngtdm_Complexity
+ 69. exp_1_original_ngtdm_Contrast
+ 70. grad_1_original_shape_LeastAxisLength
+ 71. grad_1_original_shape_Maximum2DDiameterColumn
+ 72. grad_1_original_shape_Maximum2DDiameterRow
+ 73. grad_1_original_shape_MinorAxisLength
+ 74. grad_1_original_shape_Sphericity
+ 75. grad_1_original_shape_VoxelVolume
+ 76. grad_1_original_firstorder_10Percentile
+ 77. grad_1_original_firstorder_Kurtosis
+ 78. grad_1_original_firstorder_Maximum
+ 79. grad_1_original_firstorder_Median
+ 80. grad_1_original_firstorder_Minimum
+ 81. grad_1_original_firstorder_Skewness
+ 82. grad_1_original_firstorder_TotalEnergy
+ 83. grad_1_original_firstorder_Uniformity
+ 84. grad_1_original_firstorder_Variance
+ 85. grad_1_original_glcm_Autocorrelation
+ 86. grad_1_original_glcm_ClusterTendency
+ 87. grad_1_original_glcm_Contrast
+ 88. grad_1_original_glcm_Correlation
+ 89. grad_1_original_glcm_DifferenceVariance
+ 90. grad_1_original_glcm_Idn
+ 91. grad_1_original_glcm_Imc1
+ 92. grad_1_original_glcm_MCC
+ 93. grad_1_original_gldm_GrayLevelNonUniformity
+ 94. grad_1_original_gldm_LargeDependenceHighGrayLevelEmphasis
+ 95. grad_1_original_gldm_LargeDependenceLowGrayLevelEmphasis
+ 96. grad_1_original_gldm_SmallDependenceHighGrayLevelEmphasis
+ 97. grad_1_original_glrlm_GrayLevelNonUniformity
+ 98. grad_1_original_glrlm_GrayLevelVariance
+ 99. grad_1_original_glrlm_LowGrayLevelRunEmphasis
+100. grad_1_original_glszm_GrayLevelNonUniformityNormalized
+101. grad_1_original_glszm_LowGrayLevelZoneEmphasis
+102. grad_1_original_glszm_SizeZoneNonUniformity
+103. grad_1_original_glszm_SmallAreaEmphasis
+104. grad_1_original_glszm_SmallAreaHighGrayLevelEmphasis
+105. grad_1_original_glszm_SmallAreaLowGrayLevelEmphasis
+106. grad_1_original_glszm_ZonePercentage
+107. grad_1_original_ngtdm_Strength
+108. log_1_original_shape_MajorAxisLength
+109. log_1_original_shape_Maximum2DDiameterColumn
+110. log_1_original_shape_Maximum2DDiameterRow
+111. log_1_original_shape_Maximum2DDiameterSlice
+112. log_1_original_shape_Maximum3DDiameter
+113. log_1_original_shape_MinorAxisLength
+114. log_1_original_shape_Sphericity
+115. log_1_original_shape_SurfaceArea
+116. log_1_original_firstorder_10Percentile
+117. log_1_original_firstorder_MeanAbsoluteDeviation
+118. log_1_original_firstorder_Range
+119. log_1_original_firstorder_RobustMeanAbsoluteDeviation
+120. log_1_original_glcm_ClusterShade
+121. log_1_original_glcm_Contrast
+122. log_1_original_glcm_Correlation
+123. log_1_original_glcm_Imc1
+124. log_1_original_glcm_JointAverage
+125. log_1_original_glcm_JointEnergy
+126. log_1_original_glcm_MCC
+127. log_1_original_glcm_MaximumProbability
+128. log_1_original_glcm_SumAverage
+129. log_1_original_glcm_SumEntropy
+130. log_1_original_glcm_SumSquares
+131. log_1_original_gldm_DependenceEntropy
+132. log_1_original_gldm_DependenceVariance
+133. log_1_original_gldm_LargeDependenceLowGrayLevelEmphasis
+134. log_1_original_gldm_LowGrayLevelEmphasis
+135. log_1_original_gldm_SmallDependenceHighGrayLevelEmphasis
+136. log_1_original_glrlm_HighGrayLevelRunEmphasis
+137. log_1_original_glrlm_LongRunHighGrayLevelEmphasis
+138. log_1_original_glrlm_RunLengthNonUniformity
+139. log_1_original_glrlm_RunPercentage
+140. log_1_original_glrlm_ShortRunHighGrayLevelEmphasis
+141. log_1_original_glrlm_ShortRunLowGrayLevelEmphasis
+142. log_1_original_glszm_LowGrayLevelZoneEmphasis
+143. log_1_original_glszm_SizeZoneNonUniformityNormalized
+144. log_1_original_glszm_SmallAreaHighGrayLevelEmphasis
+145. log_1_original_glszm_SmallAreaLowGrayLevelEmphasis
+146. log_1_original_glszm_ZoneEntropy
+147. log_1_original_glszm_ZonePercentage
+148. log_1_original_ngtdm_Busyness
+149. sq_1_original_shape_Maximum2DDiameterColumn
+150. sq_1_original_shape_Maximum3DDiameter
+151. sq_1_original_shape_MeshVolume
+152. sq_1_original_firstorder_10Percentile
+153. sq_1_original_firstorder_InterquartileRange
+154. sq_1_original_firstorder_Median
+155. sq_1_original_firstorder_RootMeanSquared
+156. sq_1_original_firstorder_TotalEnergy
+157. sq_1_original_firstorder_Variance
+158. sq_1_original_glcm_Autocorrelation
+159. sq_1_original_glcm_ClusterProminence
+160. sq_1_original_glcm_ClusterShade
+161. sq_1_original_glcm_Correlation
+162. sq_1_original_glcm_Idn
+163. sq_1_original_glcm_JointAverage
+164. sq_1_original_glcm_SumSquares
+165. sq_1_original_gldm_DependenceNonUniformity
+166. sq_1_original_gldm_DependenceVariance
+167. sq_1_original_gldm_LargeDependenceHighGrayLevelEmphasis
+168. sq_1_original_gldm_LowGrayLevelEmphasis
+169. sq_1_original_glrlm_GrayLevelNonUniformity
+170. sq_1_original_glrlm_HighGrayLevelRunEmphasis
+171. sq_1_original_glrlm_LongRunEmphasis
+172. sq_1_original_glrlm_RunLengthNonUniformityNormalized
+173. sq_1_original_glrlm_RunVariance
+174. sq_1_original_glrlm_ShortRunHighGrayLevelEmphasis
+175. sq_1_original_glszm_GrayLevelNonUniformityNormalized
+176. sq_1_original_glszm_GrayLevelVariance
+177. sq_1_original_glszm_HighGrayLevelZoneEmphasis
+178. sq_1_original_glszm_SizeZoneNonUniformity
+179. sq_1_original_glszm_SmallAreaEmphasis
+180. sq_1_original_glszm_SmallAreaLowGrayLevelEmphasis
+181. sq_1_original_ngtdm_Complexity
+182. sq_1_original_ngtdm_Contrast
+183. sqrt_1_original_shape_MajorAxisLength
+184. sqrt_1_original_shape_MeshVolume
+185. sqrt_1_original_shape_MinorAxisLength
+186. sqrt_1_original_firstorder_InterquartileRange
+187. sqrt_1_original_firstorder_Maximum
+188. sqrt_1_original_firstorder_Median
+189. sqrt_1_original_firstorder_Minimum
+190. sqrt_1_original_firstorder_TotalEnergy
+191. sqrt_1_original_firstorder_Uniformity
+192. sqrt_1_original_glcm_ClusterTendency
+193. sqrt_1_original_glcm_Correlation
+194. sqrt_1_original_glcm_Imc2
+195. sqrt_1_original_glcm_JointAverage
+196. sqrt_1_original_glcm_MaximumProbability
+197. sqrt_1_original_glcm_SumAverage
+198. sqrt_1_original_glcm_SumSquares
+199. sqrt_1_original_gldm_DependenceVariance
+200. sqrt_1_original_gldm_GrayLevelNonUniformity
+201. sqrt_1_original_gldm_LargeDependenceHighGrayLevelEmphasis
+202. sqrt_1_original_gldm_LargeDependenceLowGrayLevelEmphasis
+203. sqrt_1_original_gldm_SmallDependenceHighGrayLevelEmphasis
+204. sqrt_1_original_glrlm_LowGrayLevelRunEmphasis
+205. sqrt_1_original_glrlm_ShortRunHighGrayLevelEmphasis
+206. sqrt_1_original_glszm_GrayLevelVariance
+207. sqrt_1_original_glszm_HighGrayLevelZoneEmphasis
+208. sqrt_1_original_glszm_SizeZoneNonUniformity
+209. sqrt_1_original_glszm_SizeZoneNonUniformityNormalized
+210. sqrt_1_original_glszm_SmallAreaHighGrayLevelEmphasis
+211. sqrt_1_original_ngtdm_Busyness

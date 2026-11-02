@@ -1,0 +1,5 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+prostate_uc2_magnetic.field.strength,ridge,ridge,BGMMOCE,BGMMOCE,0.4743,0.4743,0.271,-0.0845,0.0806,0.5129,0.6758,0.513,0.99,-0.012,0.9879,0.0006,-0.0119,0.1499
+prostate_uc2_magnetic.field.strength,ridge,ridge,biased,biased,0.6281,0.6281,0.2379,0.0478,0.0597,0.518,0.1662,0.7368,0.0936,-0.0202,0.7238,-0.0109,-0.015,0.1413
+prostate_uc2_magnetic.field.strength,ridge,fair_dir_ridge,disparate_impact_remover,biased,0.5327,0.5327,0.4786,-0.9155,0.4786,0.5214,0.1672,0.7778,0.0936,0.0071,1.1202,0.0333,0.0133,0.02
+prostate_uc2_magnetic.field.strength,ridge,fair_reweighted_ridge,reweighing,biased,0.6291,0.6291,0.238,0.0474,0.0572,0.5266,0.1786,0.8108,0.1003,0.0115,1.1949,0.0378,0.0187,0.1513

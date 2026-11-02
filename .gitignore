@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter / OS files
+.ipynb_checkpoints/
+.DS_Store
+*.swp
+
+# Folders requested for exclusion
+NSCLC multi-modal code/
+test results/
+dataset/
+
+# Checkpoints exclusion
+chkp/exp_19.10_22h24m/
+chkp/exp_19.10_23h29m/
+
+# Best performing models exclusion in exp_19.10_15h27m
+chkp/exp_19.10_15h27m/best_performing_models/
+chkp/exp_19.10_15h27m/best*performing*models/
+
+# Exclude all image files in chkp/exp_19.10_15h27m and subfolders
+chkp/exp_19.10_15h27m/**/*.png
+chkp/exp_19.10_15h27m/**/*.jpg
+chkp/exp_19.10_15h27m/**/*.jpeg
+chkp/exp_19.10_15h27m/**/*.svg
+chkp/exp_19.10_15h27m/**/*.gif
+chkp/exp_19.10_15h27m/*.png
+chkp/exp_19.10_15h27m/*.jpg
+chkp/exp_19.10_15h27m/*.jpeg
+chkp/exp_19.10_15h27m/*.svg
+chkp/exp_19.10_15h27m/*.gif
+
+# Exclude npy and pkl files in chkp/exp_19.10_15h27m and subfolders
+chkp/exp_19.10_15h27m/**/*.npy
+chkp/exp_19.10_15h27m/**/*.pkl
+chkp/exp_19.10_15h27m/*.npy
+chkp/exp_19.10_15h27m/*.pkl
+

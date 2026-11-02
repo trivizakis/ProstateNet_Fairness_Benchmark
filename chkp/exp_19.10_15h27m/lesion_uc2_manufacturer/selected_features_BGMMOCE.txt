@@ -1,0 +1,24 @@
+Experiment: lesion_uc2_manufacturer
+Training Set: BGMMOCE
+Total Selected Features: 20
+============================================================
+  1. original_1_original_glcm_Idmn
+  2. original_1_original_ngtdm_Coarseness
+  3. exp_1_original_shape_MeshVolume
+  4. exp_1_original_shape_MinorAxisLength
+  5. exp_1_original_glrlm_LongRunHighGrayLevelEmphasis
+  6. exp_1_original_glrlm_RunPercentage
+  7. grad_1_original_shape_MinorAxisLength
+  8. grad_1_original_firstorder_Uniformity
+  9. grad_1_original_glszm_SizeZoneNonUniformity
+ 10. log_1_original_glcm_MaximumProbability
+ 11. log_1_original_gldm_LargeDependenceHighGrayLevelEmphasis
+ 12. log_1_original_glrlm_RunLengthNonUniformity
+ 13. log_1_original_ngtdm_Busyness
+ 14. sq_1_original_firstorder_Energy
+ 15. sq_1_original_glcm_Correlation
+ 16. sq_1_original_gldm_DependenceNonUniformityNormalized
+ 17. sq_1_original_ngtdm_Busyness
+ 18. sqrt_1_original_glcm_Imc1
+ 19. sqrt_1_original_glcm_MaximumProbability
+ 20. sqrt_1_original_ngtdm_Coarseness

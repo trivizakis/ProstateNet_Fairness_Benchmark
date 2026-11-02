@@ -1,0 +1,9 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+prostate_uc1_manufacturer,random_forest,random_forest,BGMMOCE,BGMMOCE,0.7405,0.7405,0.2377,0.0483,0.1747,0.608,0.6857,0.5598,0.8848,0.2907,1.4871,0.0419,0.2214,0.2149
+prostate_uc1_manufacturer,random_forest,random_forest,biased,biased,0.8257,0.8257,0.2636,-0.0555,0.2784,0.5612,0.6848,0.5245,0.9862,0.1144,1.1358,0.0258,0.0729,0.0676
+prostate_uc1_manufacturer,random_forest,fair_dir_rf,disparate_impact_remover,biased,0.7541,0.7541,0.2883,-0.1546,0.2767,0.5011,0.6585,0.492,0.9954,0.0432,1.0454,0.0161,0.0342,0.2906
+prostate_uc1_manufacturer,random_forest,fair_calib_eq_odds_rf,postprocessing,biased,0.8257,0.8257,0.2636,-0.0555,0.2784,0.5612,0.6848,0.5245,0.9862,0.1144,1.1358,0.0258,0.0729,0.0676
+prostate_uc1_manufacturer,random_forest,fair_eq_odds_rf,postprocessing,biased,0.8257,0.8257,0.2636,-0.0555,0.2784,0.5212,0.6635,0.5024,0.977,0.0776,1.0867,0.0129,0.0568,0.0676
+prostate_uc1_manufacturer,random_forest,fair_roc_rf,postprocessing,biased,0.8257,0.8257,0.2636,-0.0555,0.2784,0.7171,0.7315,0.6758,0.7972,0.1722,1.3655,0.0323,0.0524,0.0676
+prostate_uc1_manufacturer,random_forest,fair_exp_grad_eo_rf,reductions,biased,0.6486,0.6486,0.4139,-0.6576,0.4306,0.5457,0.6762,0.5157,0.9816,0.0609,1.0689,0.0194,0.0289,0.2093
+prostate_uc1_manufacturer,random_forest,fair_reweighted_rf,reweighing,biased,0.8136,0.8136,0.2867,-0.1481,0.2981,0.5412,0.6741,0.5133,0.9816,-0.1044,0.8939,-0.0258,-0.1323,0.0334

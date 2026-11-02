@@ -1,0 +1,15 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+prostate_uc2_manufacturer,logistic_regression,logistic_elastic,BGMMOCE,BGMMOCE,0.5764,0.5764,0.2914,-0.1664,0.2199,0.4828,0.0066,0.2,0.0034,0.0042,1.6403,-0.0059,0.0034,0.1751
+prostate_uc2_manufacturer,logistic_regression,logistic_l1,BGMMOCE,BGMMOCE,0.6088,0.6088,0.2854,-0.1423,0.2164,0.4897,0.0571,0.5294,0.0302,0.0336,3.554,0.0424,0.0339,0.1608
+prostate_uc2_manufacturer,logistic_regression,logistic_l2,BGMMOCE,BGMMOCE,0.6052,0.6052,0.286,-0.1445,0.2176,0.4897,0.0571,0.5294,0.0302,0.0267,2.6245,0.0288,0.0271,0.1441
+prostate_uc2_manufacturer,logistic_regression,logistic_elastic,biased,biased,0.6284,0.6284,0.2697,-0.0793,0.1833,0.5137,0.1292,0.7778,0.0705,0.0351,2.1871,0.0534,0.0398,0.1554
+prostate_uc2_manufacturer,logistic_regression,logistic_l1,biased,biased,0.6508,0.6508,0.2666,-0.0668,0.1821,0.5189,0.1716,0.725,0.0973,0.0475,2.0308,0.0744,0.053,0.153
+prostate_uc2_manufacturer,logistic_regression,logistic_l2,biased,biased,0.6448,0.6448,0.2677,-0.0713,0.1856,0.5172,0.1612,0.7297,0.0906,0.0436,2.0188,0.0726,0.0487,0.1366
+prostate_uc2_manufacturer,logistic_regression,fair_dir_lr,disparate_impact_remover,biased,0.6172,0.6172,0.2742,-0.0976,0.1893,0.5172,0.1407,0.7931,0.0772,-0.0128,0.7719,-0.0131,-0.0076,0.1804
+prostate_uc2_manufacturer,logistic_regression,fair_prejudice_remover,inprocessing,biased,0.6709,0.6709,0.2627,-0.0514,0.1873,0.5447,0.2577,0.7797,0.1544,-0.0081,0.9227,0.0149,0.0016,0.1024
+prostate_uc2_manufacturer,logistic_regression,fair_calib_eq_odds_lr,postprocessing,biased,0.5832,0.5832,0.2816,-0.1272,0.1981,0.5,0.0643,0.7692,0.0336,-0.0428,0.0,-0.0592,-0.0407,0.1284
+prostate_uc2_manufacturer,logistic_regression,fair_eq_odds_lr,postprocessing,biased,0.6448,0.6448,0.2677,-0.0713,0.1856,0.5172,0.1612,0.7297,0.0906,0.0298,1.6038,0.0589,0.0348,0.1366
+prostate_uc2_manufacturer,logistic_regression,fair_roc_lr,postprocessing,biased,0.6448,0.6448,0.2677,-0.0713,0.1856,0.5825,0.6161,0.5821,0.6544,0.0756,1.1402,0.0764,0.0915,0.1366
+prostate_uc2_manufacturer,logistic_regression,fair_exp_grad_eo_lr,reductions,biased,0.5638,0.5638,0.4572,-0.8299,0.4558,0.5412,0.2436,0.7818,0.1443,0.0119,1.134,0.0463,0.0211,0.0592
+prostate_uc2_manufacturer,logistic_regression,fair_grid_search_eo,reductions,biased,0.6181,0.6181,0.2463,0.0142,0.089,0.5447,0.3823,0.626,0.2752,0.12,1.7153,0.2119,0.1292,0.1709
+prostate_uc2_manufacturer,logistic_regression,fair_reweighted_lr,reweighing,biased,0.6395,0.6395,0.2706,-0.0829,0.1901,0.512,0.1446,0.7059,0.0805,0.0465,2.2865,0.0767,0.0507,0.1342

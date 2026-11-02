@@ -1,0 +1,15 @@
+Experiment,Classifier_Family,Model_Name,Variant,Training_Split,AUC,C_Index,Brier_Score,IPA,ECE,Accuracy,F1,Precision,Recall,Statistical_Parity_Diff,Disparate_Impact,Equal_Opportunity_Diff,Average_Odds_Diff,C_Index_Disparity
+lesion_uc2_magnetic.field.strength,logistic_regression,logistic_elastic,BGMMOCE,BGMMOCE,0.7133,0.7133,0.2396,0.0348,0.1677,0.6042,0.4242,1.0,0.2692,-0.0794,0.5833,-0.0769,-0.0385,0.0728
+lesion_uc2_magnetic.field.strength,logistic_regression,logistic_l1,BGMMOCE,BGMMOCE,0.7203,0.7203,0.2294,0.0762,0.1539,0.6458,0.5405,0.9091,0.3846,-0.1852,0.4444,-0.3077,-0.1181,0.092
+lesion_uc2_magnetic.field.strength,logistic_regression,logistic_l2,BGMMOCE,BGMMOCE,0.7115,0.7115,0.2363,0.0481,0.1669,0.625,0.4706,1.0,0.3077,-0.127,0.4667,-0.1538,-0.0769,0.0838
+lesion_uc2_magnetic.field.strength,logistic_regression,logistic_elastic,biased,biased,0.7133,0.7133,0.2367,0.0467,0.1551,0.6042,0.4242,1.0,0.2692,-0.0794,0.5833,-0.0769,-0.0385,0.0687
+lesion_uc2_magnetic.field.strength,logistic_regression,logistic_l1,biased,biased,0.722,0.722,0.2309,0.0698,0.1472,0.6667,0.5556,1.0,0.3846,-0.2222,0.3333,-0.3077,-0.1538,0.0275
+lesion_uc2_magnetic.field.strength,logistic_regression,logistic_l2,biased,biased,0.7168,0.7168,0.2298,0.0743,0.15,0.625,0.4706,1.0,0.3077,-0.127,0.4667,-0.1538,-0.0769,0.0728
+lesion_uc2_magnetic.field.strength,logistic_regression,fair_dir_lr,disparate_impact_remover,biased,0.7045,0.7045,0.2375,0.0433,0.1615,0.5625,0.4,0.7778,0.2692,0.0794,1.5556,0.0769,0.1099,0.0934
+lesion_uc2_magnetic.field.strength,logistic_regression,fair_prejudice_remover,inprocessing,biased,0.736,0.736,0.2283,0.0805,0.1536,0.6458,0.5641,0.8462,0.4231,-0.3651,0.2333,-0.3846,-0.3173,0.0165
+lesion_uc2_magnetic.field.strength,logistic_regression,fair_calib_eq_odds_lr,postprocessing,biased,0.6809,0.6809,0.2484,-0.0006,0.167,0.5625,0.3226,1.0,0.1923,-0.2381,0.0,-0.3846,-0.1923,0.1525
+lesion_uc2_magnetic.field.strength,logistic_regression,fair_eq_odds_lr,postprocessing,biased,0.7168,0.7168,0.2298,0.0743,0.15,0.625,0.4706,1.0,0.3077,-0.127,0.4667,-0.1538,-0.0769,0.0728
+lesion_uc2_magnetic.field.strength,logistic_regression,fair_roc_lr,postprocessing,biased,0.7168,0.7168,0.2298,0.0743,0.15,0.6667,0.6522,0.75,0.5769,-0.2751,0.5185,-0.2308,-0.2315,0.0728
+lesion_uc2_magnetic.field.strength,logistic_regression,fair_exp_grad_eo_lr,reductions,biased,0.6871,0.6871,0.3369,-0.357,0.3379,0.6042,0.5128,0.7692,0.3846,-0.2804,0.3457,-0.3077,-0.2431,0.1957
+lesion_uc2_magnetic.field.strength,logistic_regression,fair_grid_search_eo,reductions,biased,0.7185,0.7185,0.2299,0.0738,0.1521,0.625,0.55,0.7857,0.4231,-0.4127,0.2121,-0.3846,-0.3798,0.0316
+lesion_uc2_magnetic.field.strength,logistic_regression,fair_reweighted_lr,reweighing,biased,0.7168,0.7168,0.2293,0.0764,0.1498,0.625,0.4706,1.0,0.3077,-0.127,0.4667,-0.1538,-0.0769,0.0879

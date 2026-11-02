@@ -1,0 +1,26 @@
+Experiment: lesion_uc2_magnetic.field.strength
+Training Set: biased
+Total Selected Features: 22
+============================================================
+  1. original_1_original_shape_MeshVolume
+  2. original_1_original_shape_MinorAxisLength
+  3. original_1_original_glcm_Imc1
+  4. original_1_original_glrlm_ShortRunLowGrayLevelEmphasis
+  5. exp_1_original_shape_MeshVolume
+  6. exp_1_original_shape_VoxelVolume
+  7. exp_1_original_gldm_DependenceNonUniformity
+  8. exp_1_original_gldm_SmallDependenceEmphasis
+  9. exp_1_original_glrlm_RunLengthNonUniformityNormalized
+ 10. grad_1_original_shape_MeshVolume
+ 11. grad_1_original_shape_MinorAxisLength
+ 12. grad_1_original_glszm_LargeAreaHighGrayLevelEmphasis
+ 13. grad_1_original_ngtdm_Coarseness
+ 14. log_1_original_shape_MeshVolume
+ 15. log_1_original_shape_MinorAxisLength
+ 16. log_1_original_shape_VoxelVolume
+ 17. log_1_original_glszm_SizeZoneNonUniformity
+ 18. sq_1_original_shape_MeshVolume
+ 19. sq_1_original_shape_MinorAxisLength
+ 20. sq_1_original_shape_VoxelVolume
+ 21. sq_1_original_gldm_DependenceNonUniformityNormalized
+ 22. sqrt_1_original_shape_MeshVolume
